@@ -1,0 +1,128 @@
+@layer base {
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Thin.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 100;
+    src: url("../fonts/Rebond-Grotesque-Thin-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Extralight.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Extralight-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Light.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Light-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Medium-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Semibold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Semibold-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Bold-Italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Extrabold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Rebond-Grotesque";
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Rebond-Grotesque-Extrabold-Italic.woff") format("otf");
+  }
+}

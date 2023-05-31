@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import defaulTheme from "tailwindcss/defaultTheme";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export default <Partial<Config>>{
   content: [
@@ -14,5 +14,11 @@ export default <Partial<Config>>{
     "./error.{js,ts,vue}",
     "./content/**/*.md",
   ],
-  extend: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Rebond-Grotesque", ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
 };
