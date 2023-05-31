@@ -1,2 +1,15 @@
 @import "./main.css";
 @import "./typography.css";
+
+@layer utilities {
+  .app-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    .app-container {
+      max-width: 85%;
+    }
+  }
+}

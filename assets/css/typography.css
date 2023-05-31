@@ -554,4 +554,14 @@
       line-height: 1.5rem;
     }
   }
+
+  html {
+    @apply bg-primary-black;
+    @apply text-primary-white;
+  }
+
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 }
