@@ -21,7 +21,7 @@
 
 <style lang="postcss" scoped>
   .hero-section {
-    @apply mt-24;
+    @apply mt-24 mb-12;
   }
   .hero-wrapper {
     @apply max-w-[75%] mx-auto;
