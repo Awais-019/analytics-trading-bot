@@ -1,9 +1,9 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="text-3xl font-bold">
+  <div class="p-reg">
     Explore the world of Cryptocurrencies and their soaring asset values
   </div>
 </template>
 
-<style scoped></style>
+<style lang="postcss" scoped></style>

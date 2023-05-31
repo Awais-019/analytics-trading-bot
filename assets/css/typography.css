@@ -1,4 +1,6 @@
 @layer base {
+  /* font-faces */
+
   @font-face {
     font-family: "Rebond-Grotesque";
     font-style: normal;
@@ -126,6 +128,430 @@
     src: url("../fonts/Rebond-Grotesque-Extrabold-Italic.woff") format("otf");
   }
 
-  
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Inter-Light.woff2?v=3.19") format("woff2"),
+      url("../fonts/Inter-Light.woff?v=3.19") format("woff");
+  }
 
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+      url("../fonts/Inter-Regular.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Inter-Medium.woff2?v=3.19") format("woff2"),
+      url("../fonts/Inter-Medium.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+      url("../fonts/Inter-SemiBold.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
+      url("../fonts/Inter-Bold.woff?v=3.19") format("woff");
+  }
+
+  /* typogaphy styles */
+
+  .h1-display-reg {
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h1-display-md {
+    font-weight: 500;
+    font-size: 1.75rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h1-display-sb {
+    font-weight: 600;
+    font-size: 1.75rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h1-display-bd {
+    font-weight: 700;
+    font-size: 1.75rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h2-section-reg {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h2-section-md {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h2-section-sb {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h2-section-bd {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+  }
+
+  .h3-subsection-reg {
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h3-subsection-md {
+    font-weight: 500;
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h3-subsection-sb {
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h3-subsection-bd {
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h4-subsection-reg {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h4-subsection-md {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h4-subsection-sb {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h4-subsection-bd {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h5-subsection-reg {
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h5-subsection-md {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h5-subsection-sb {
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h5-subsection-bd {
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .h6-subsection-reg {
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1rem;
+  }
+
+  .h6-subsection-md {
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1rem;
+  }
+
+  .h6-subsection-sb {
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1rem;
+  }
+
+  .h6-subsection-bd {
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1rem;
+  }
+
+  .p-reg {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .p-md {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .p-sb {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .p-bd {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+  }
+
+  .btn-reg {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+  }
+
+  .btn-md {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+  }
+
+  .btn-sb {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+  }
+
+  .btn-bd {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .h1-display-reg,
+    .h1-display-md,
+    .h1-display-sb,
+    .h1-display-bd {
+      font-size: 2.25rem;
+      letter-spacing: 0.5px;
+      line-height: 2.5rem;
+    }
+
+    .h2-section-reg,
+    .h2-section-md,
+    .h2-section-sb,
+    .h2-section-bd {
+      font-size: 1.75rem;
+      letter-spacing: 0.5px;
+      line-height: 2rem;
+    }
+
+    .h3-subsection-reg,
+    .h3-subsection-md,
+    .h3-subsection-sb,
+    .h3-subsection-bd {
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+      line-height: 2rem;
+    }
+
+    .h4-subsection-reg,
+    .h4-subsection-md,
+    .h4-subsection-sb,
+    .h4-subsection-bd {
+      font-size: 1.25rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+    }
+
+    .h5-subsection-reg,
+    .h5-subsection-md,
+    .h5-subsection-sb,
+    .h5-subsection-bd {
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+    }
+
+    .h6-subsection-reg,
+    .h6-subsection-md,
+    .h6-subsection-sb,
+    .h6-subsection-bd {
+      font-size: 0.875rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+    }
+
+    .p-reg,
+    .p-md,
+    .p-sb,
+    .p-bd {
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+    }
+
+    .btn-reg,
+    .btn-md,
+    .btn-sb,
+    .btn-bd {
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .h1-display-reg,
+    .h1-display-md,
+    .h1-display-sb,
+    .h1-display-bd {
+      font-size: 3rem;
+      letter-spacing: -1px;
+      line-height: 3.5rem;
+    }
+
+    .h2-section-reg,
+    .h2-section-md,
+    .h2-section-sb,
+    .h2-section-bd {
+      font-size: 2.25rem;
+      letter-spacing: -0.5px;
+      line-height: 2.5rem;
+    }
+
+    .h3-subsection-reg,
+    .h3-subsection-md,
+    .h3-subsection-sb,
+    .h3-subsection-bd {
+      font-size: 1.75rem;
+      letter-spacing: 0px;
+      line-height: 2rem;
+    }
+
+    .h4-subsection-reg,
+    .h4-subsection-md,
+    .h4-subsection-sb,
+    .h4-subsection-bd {
+      font-size: 1.25rem;
+      letter-spacing: 0px;
+      line-height: 1.5rem;
+    }
+
+    .h5-subsection-reg,
+    .h5-subsection-md,
+    .h5-subsection-sb,
+    .h5-subsection-bd {
+      font-size: 1.125rem;
+      letter-spacing: 0px;
+      line-height: 1.5rem;
+    }
+
+    .h6-subsection-reg,
+    .h6-subsection-md,
+    .h6-subsection-sb,
+    .h6-subsection-bd {
+      font-size: 1rem;
+      letter-spacing: 0px;
+      line-height: 1.5rem;
+    }
+
+    .p-reg,
+    .p-md,
+    .p-sb,
+    .p-bd {
+      font-size: 1.125rem;
+      letter-spacing: 0px;
+      line-height: 1.5rem;
+    }
+
+    .btn-reg,
+    .btn-md,
+    .btn-sb,
+    .btn-bd {
+      font-size: 1rem;
+      letter-spacing: 0px;
+      line-height: 1.5rem;
+    }
+  }
 }
