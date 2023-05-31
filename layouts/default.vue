@@ -3,6 +3,7 @@
 <template>
   <div>
     <Header />
+    <HeroSection />
     <slot />
   </div>
 </template>

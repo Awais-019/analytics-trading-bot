@@ -3,13 +3,13 @@
 
 @layer utilities {
   .app-container {
-    max-width: 90%;
+    max-width: 85%;
     margin: 0 auto;
   }
 
   @media (min-width: 768px) {
     .app-container {
-      max-width: 85%;
+      max-width: 80%;
     }
   }
 }
