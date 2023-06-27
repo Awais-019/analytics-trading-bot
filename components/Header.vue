@@ -47,7 +47,7 @@
               <nuxt-link to="/swap">Swap</nuxt-link>
             </li>
             <li class="nav__item">
-              <nuxt-link to="/about">Exchange</nuxt-link>
+              <nuxt-link to="/exchange">Exchange</nuxt-link>
             </li>
             <ul class="nav__list-sub">
               <li class="nav__item signup btn-sb">

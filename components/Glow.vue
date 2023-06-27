@@ -4,7 +4,7 @@
 
 <style lang="postcss" scoped>
   .glow {
-    @apply bg-primary-tango w-[318px] h-[318px] rounded-full absolute top-20 opacity-[40%] blur-[175px];
+    @apply bg-primary-tango w-[318px] h-[318px] rounded-full absolute top-20 opacity-[40%] blur-[150px];
     left: calc(50% - 159px);
   }
 </style>

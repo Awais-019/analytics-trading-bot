@@ -51,5 +51,9 @@ export default <Partial<Config>>{
       tablet: "768px",
       mobile: { max: "767px" },
     },
+    backgroundImage: {
+      gradient:
+        "linear-gradient(179.54deg, #7B4C28 0.34%, rgba(243, 126, 37, 0) 101.42%)",
+    },
   },
 };
